@@ -1,0 +1,19 @@
+{
+    "nixpacks": {
+        "phases": {
+            "install": {
+                "cmds": [
+                    "npm ci"
+                ]
+            },
+            "build": {
+                "cmds": [
+                    "echo 'Build complete'"
+                ]
+            },
+            "start": {
+                "cmd": "node src/bot.js"
+            }
+        }
+    }
+}
