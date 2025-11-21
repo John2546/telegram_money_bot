@@ -1,0 +1,26 @@
+{
+  "name": "telegram-channel-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot для публикации и редактирования сообщений в группах и каналах",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "channel",
+    "group",
+    "posting"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5"
+  }
+}

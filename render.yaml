@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+    healthCheckPath: /
